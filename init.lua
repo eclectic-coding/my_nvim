@@ -3,4 +3,6 @@ require "user.keymaps"
 require "user.plugins"
 -- vim.cmd "colorscheme darkplus"
 require "user.colorscheme"
+require "user.cmp"
+
 
