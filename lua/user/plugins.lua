@@ -59,6 +59,7 @@ return packer.startup(function(use)
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
   use "hrsh7th/cmp-nvim-lsp"
   use "hrsh7th/cmp-nvim-lua"
+  use "numToStr/Comment.nvim"
 
   -- snippets
   use "L3MON4D3/LuaSnip" --snippet engine
@@ -78,6 +79,7 @@ return packer.startup(function(use)
     run = ":TSUpdate"
   }
   use "p00f/nvim-ts-rainbow"
+  use "JoosepAlviste/nvim-ts-context-commentstring"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
