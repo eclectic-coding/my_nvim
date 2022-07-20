@@ -67,6 +67,7 @@ return packer.startup(function(use)
   use "nvim-lualine/lualine.nvim"
   use "akinsho/toggleterm.nvim"
   use "ahmedkhalf/project.nvim"
+  use "lewis6991/impatient.nvim"
 
   -- snippets
   use "L3MON4D3/LuaSnip" --snippet engine
