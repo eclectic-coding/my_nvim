@@ -170,7 +170,7 @@ local schemas = {
   },
 }
 
-local function extend(tab1, tab2):www
+local function extend(tab1, tab2)
   if tab2 == nil then
     return tab2
   end
